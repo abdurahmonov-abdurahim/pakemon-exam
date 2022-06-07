@@ -1,0 +1,35 @@
+body {
+  background-color: #FFD845;
+}
+
+.header__nav-list {
+  margin: 0;
+  padding: 0;
+}
+
+.header__nav-item+.header__nav-item {
+  margin-left: 35px;
+}
+
+.header__input {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.header__input:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+}
+
+.header__search-btn {
+  background-color: #FFFFFF;
+}
+
+.nav__btn {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
